@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "body": {
+      "items": [
+        {
+          "type": "image",
+          "action": { "type": "web", "data": "https://www.breaknews.com/1016426" },
+          "imageUrl": "https://www.breaknews.com/imgdata/breaknews_com/202311/2023112816503763.jpg",
+          "imageStyle": { "contentMode": "aspectFill" }
+        },
+        {
+          "type": "box",
+          "viewStyle": {
+            "padding": { "top": 10, "bottom": 10, "left": 10, "right": 10 }
+          },
+          "layout": "column",
+          "items": [
+            {
+              "type": "box",
+              "layout": "row",
+              "items": [
+                {
+                  "type": "text",
+                  "text": "소녀시대 태연 1위, 2월 걸그룹 개인 브랜드평판 접수..2위 제니·3위 지효",
+                  "viewStyle": {
+                    "margin": { "top": 10, "bottom": 0, "left": 0, "right": 0 }
+                  },
+                  "maxTextLines": 1,
+                  "textStyle": { "weight": "bold" }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "viewStyle": {
+                "padding": { "top": 6, "bottom": 12, "left": 0, "right": 0 }
+              },
+              "text": "지난달 해당 브랜드 빅데이터 비교 6.28% 하락 걸그룹 개인 브랜드평판 2024년 2월 빅데이터 분석결과 1위 소녀시대 태연, 2위 블랙핑크 제니, 3위 트와이스 지효 순으로 나타났다.​"
+            },
+            {
+              "type": "box",
+              "layout": "row",
+              "items": [
+                {
+                  "type": "textButton",
+                  "action": { "type": "web", "data": "https://namu.wiki/w/%ED%83%9C%EC%97%B0" },
+                  "viewStyle": {
+                    "margin": { "top": 0, "bottom": 0, "left": 0, "right": 4 }
+                  },
+                  "text": "태연 (나무위키)",
+                  "textStyle": { "weight": "bold" }
+                },
+                {
+                  "type": "textButton",
+                  "action": { "type": "web", "data": "https://www.youtube.com/channel/UC5z2fxN6rs69cSyXur6X6Mg" },
+                  "viewStyle": {
+                    "margin": { "top": 0, "bottom": 0, "left": 4, "right": 0 }
+                  },
+                  "text": "탱구 TV",
+                  "textStyle": { "weight": "bold" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

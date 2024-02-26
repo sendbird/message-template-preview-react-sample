@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "body": {
+        "items": [{
+            "type": "box",
+            "layout": "column",
+            "viewStyle": {
+                "padding": { "top": 5, "bottom": 5, "left": 0, "right": 10 }
+            },
+            "items": [{
+                "type": "box",
+                "layout": "row",
+                "align": { "horizontal": "center", "vertical": "center" },
+                "items": [{
+                    "type": "imageButton",
+                    "width": { "type": "fixed", "value": 70 },
+                    "height": { "type": "flex", "value": 1 },
+                    "align": { "horizontal": "center", "vertical": "center" },
+                    "imageUrl": "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240116_168%2Fauto_17053701702442qv0L_PNG%2F20240116105600_9xS4XPiV.png",
+                    "metaData": { "pixelWidth": "149", "pixelHeight": "70" }
+                    },
+                    {
+                    "type": "box",
+                    "layout": "column",
+                    "items": [{
+                        "type": "text",
+                        "text": "예약완료",
+                        "width": { "type": "flex", "value": 1 },
+                        "align": { "horizontal": "right", "vertical": "center" },
+                        "viewStyle": {
+                            "backgroundColor": "#F0FAFF", "radius": 4,
+                            "padding": { "top": 2, "bottom": 1, "left": 4, "right": 4 }
+                        },
+                        "textStyle": { "color": "#3BC7FF", "weight": "bold", "size": 12 },
+                        "maxTextLines": "1"
+                    },
+                    {
+                        "type": "text",
+                        "text": "[슈퍼딜] 2024 포드 머스탱 컨버터블",
+                        "textStyle": { "weight": "bold" },
+                        "viewStyle": {
+                            "margin": { "top": 2 }
+                        },
+                        "maxTextLines": "1"
+                    },
+                    {
+                        "type": "text",
+                        "text": "출발: 03.24.(금) 15:00\n도착: 03.27.(월) 11:00",
+                        "textStyle": { "weight": "normal" },
+                        "maxTextLines": "2"
+                    }]
+                },
+                {
+                    "type": "textButton",
+                    "text": "선택",
+                    "width": { "type": "fixed", "value": 60 },
+                    "height": { "type": "fixed", "value": 30 },
+                    "viewStyle": {
+                        "radius": 17,
+                        "padding": { "top": 0, "bottom": 0, "left": 0, "right": 0 }
+                    },
+                    "textStyle": { "weight": "bold" },
+                    "maxTextLines": "1"
+                }]
+            }]
+        }]
+    }
+}
