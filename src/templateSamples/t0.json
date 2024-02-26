@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "body": {
+    "items": [
+      {
+        "type": "image",
+        "action": {
+          "type": "web",
+          "data": "https://www.breaknews.com/1016426"
+        },
+        "imageUrl": "https://www.breaknews.com/imgdata/breaknews_com/202311/2023112816503763.jpg",
+        "imageStyle": {
+          "contentMode": "aspectFill"
+        }
+      },
+      {
+        "type": "box",
+        "viewStyle": {
+          "padding": {
+            "top": 10,
+            "bottom": 10,
+            "left": 10,
+            "right": 10
+          }
+        },
+        "layout": "column",
+        "items": [
+          {
+            "type": "box",
+            "layout": "row",
+            "items": [
+             {
+              "type": "text", 
+              "width": { "type": "fixed", "value": 2 },
+              "height": { "type": "flex", "value": 0 },
+              "text":".",
+              "viewStyle": {
+                  "borderWidth": 2, "borderColor":"#000000"
+               }
+              },
+              {
+                "type": "text",
+                "text": "제목\n하하하하하하하",
+                "viewStyle": {
+                  "margin": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 4,
+                    "right": 0
+                  }
+                },
+                "maxTextLines": 2,
+                "textStyle": {
+                  "weight": "bold"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "viewStyle": {
+              "padding": {
+                "top": 6,
+                "bottom": 12,
+                "left": 0,
+                "right": 0
+              }
+            },
+            "text": "리프레시 소개\n상담을 다시 시작하고 싶을때\n다른 주제로 상담하고 싶을 때\n상담을 이어가고 싶을 때.​"
+          },
+          {
+            "type": "box",
+            "layout": "row",
+            "items": [
+              {
+                "type": "image",
+                "width": {
+                  "type": "fixed",
+                  "value": 2
+                },
+                "height": {
+                  "type": "flex",
+                  "value": 0
+                },
+                "imageUrl": "https://www.iconsdb.com/icons/download/blue/square-16.png",
+                "imageStyle": {
+                  "contentMode": "aspectFill"
+                },
+                "viewStyle": {
+                  "padding": {
+                    "top": 10,
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "text": "📍인근 주차장 찾기\n쏘카 앱 ▶ 하단의 [스마트키] ▶ 반납 장소 ▶ 주차장 이용안내 [반납할 때] ▶ '주차장 찾기'를 이용하여 검색 또는 만차 안내에 적힌 서브 주차장",
+                "viewStyle": {
+                  "padding": {
+                    "top": 10,
+                    "bottom": 10,
+                    "left": 10,
+                    "right": 10
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "imageUrl": "https://cdn.ggilbo.com/news/photo/202001/738244_573234_5446.jpg",
+            "imageStyle": {
+              "contentMode": "aspectFill"
+            }
+          },
+          {
+            "type": "textButton",
+            "action": {
+              "type": "web",
+              "data": "https://namu.wiki/w/%ED%83%9C%EC%97%B0"
+            },
+            "viewStyle": {
+              "margin": {
+                "top": 10,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              }
+            },
+            "text": "텍스트",
+            "textStyle": {
+              "weight": "bold"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

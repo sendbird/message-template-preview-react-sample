@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.editor-holder{
+  width: 1000px;
+  height: 500px;
+  margin-top: 10px;
+  border-radius: 3px;
+  position: relative;
+  top: 0;
+  left: 1%;
+  background: #1f1f1f !important;
+  overflow: auto;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+
+  .toolbar{
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    top: -2px;
+    margin: 0;
+    left: 0;
+    z-index: 3;
+    padding: 8px;
+    background: #afafaf;
+    li{
+      display: inline-block;
+    }
+  }
+
+  textarea::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(140, 78, 78, 0.3);
+  }
+
+  textarea::-webkit-scrollbar-thumb {
+    background-color: rgb(9, 0, 0);
+    outline: 1px solid rgb(151, 160, 168);
+  }
+
+  textarea{
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    font-size: 14px;
+    border: 0;
+    margin: 0;
+    top: 40px;
+    left: 0;
+    padding: 20px !important;
+    line-height: 21px;
+    position: absolute;
+
+    font-family: Consolas,Liberation Mono,Courier,monospace;
+    overflow: visible;
+    background: transparent !important;
+    resize: none;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+    &::-webkit-input-placeholder{
+      color: rgba(255, 255, 255, 1);
+    }
+
+    &:focus{
+      outline: 0;
+      border: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font:inherit;flex-shrink:0;}
